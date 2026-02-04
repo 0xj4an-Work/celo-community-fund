@@ -29,11 +29,13 @@ export default defineConfig({
   server: {
     host: true,
     port: process.env.PORT || 3000,
-    open: process.env.NODE_ENV !== 'production'
+    open: process.env.NODE_ENV !== 'production',
+    allowedHosts: true
   },
   preview: {
     host: true,
-    port: process.env.PORT || 3000
+    port: process.env.PORT || 3000,
+    allowedHosts: true
   },
   build: {
     outDir: 'build'
