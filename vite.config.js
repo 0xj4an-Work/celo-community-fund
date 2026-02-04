@@ -28,8 +28,12 @@ export default defineConfig({
   },
   server: {
     host: '0.0.0.0',
-    port: 3000,
+    port: process.env.PORT || 3000,
     open: process.env.NODE_ENV !== 'production'
+  },
+  preview: {
+    host: '0.0.0.0',
+    port: process.env.PORT || 3000
   },
   build: {
     outDir: 'build'
