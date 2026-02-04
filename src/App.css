@@ -203,6 +203,11 @@ tr{
   z-index: 0;
 }
 
+.sunburst {
+  height: 600px;
+  width: 100%;
+}
+
 .tooltip:hover .tooltiptext {
   visibility: visible;
   transition: all 5s ease-in;
