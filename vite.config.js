@@ -29,7 +29,8 @@ export default defineConfig({
   server: {
     host: '0.0.0.0',
     port: process.env.PORT || 3000,
-    open: process.env.NODE_ENV !== 'production'
+    open: process.env.NODE_ENV !== 'production',
+    allowedHosts: 'all'
   },
   preview: {
     host: '0.0.0.0',
