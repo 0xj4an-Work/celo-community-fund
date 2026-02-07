@@ -72,7 +72,8 @@ export const incomingProposals = [
     fundingRequested: {
       amount: 0,
       token: null,
-      usdEquivalent: 0
+      usdEquivalent: 0,
+      note: 'Non Funding Proposal'
     },
     summary: 'Enables Celo community to vote on Mento Governance Proposal 13. Increases circuit breaker threshold from 10bps to 15bps and introduces 5bps spread fee for three USDm trading pairs. Aims to reduce operational downtime from price volatility while generating protocol revenue.',
     githubUrl: 'https://github.com/celo-org/governance/blob/main/CGPs/cgp-0221.md',

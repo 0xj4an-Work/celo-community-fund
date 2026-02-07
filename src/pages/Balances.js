@@ -103,13 +103,21 @@ function Balances({
                           borderRadius: '3px',
                           fontSize: '9px',
                           fontWeight: 'bold',
-                          background: 'rgba(255,152,0,0.2)',
-                          color: '#FF9800',
-                          border: '1px solid #FF9800'
+                          background: proposal.fundingRequested.note === 'Non Funding Proposal'
+                            ? 'rgba(158,158,158,0.2)'
+                            : 'rgba(255,152,0,0.2)',
+                          color: proposal.fundingRequested.note === 'Non Funding Proposal'
+                            ? '#9E9E9E'
+                            : '#FF9800',
+                          border: proposal.fundingRequested.note === 'Non Funding Proposal'
+                            ? '1px solid #9E9E9E'
+                            : '1px solid #FF9800'
                         }}
                         title={proposal.fundingRequested.note}
                       >
-                        ⚠️ VERIFY
+                        {proposal.fundingRequested.note === 'Non Funding Proposal'
+                          ? 'NON-FUNDING'
+                          : '⚠️ VERIFY'}
                       </span>
                     )}
                   </div>

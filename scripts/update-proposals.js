@@ -230,10 +230,20 @@ async function fetchCGP(cgpNumber) {
     const mdAmount = extractAmountFromMarkdown(content);
 
     // Verify amounts match
-    if (jsonAmount > 0 && mdAmount > 0 && Math.abs(jsonAmount - mdAmount) > 1) {
+    if (jsonAmount === 0 && mdAmount === null) {
+      // No mainnet.json and no funding mentioned in markdown - Non Funding Proposal
+      proposal.fundingRequested.amount = 0;
+      proposal.fundingRequested.note = 'Non Funding Proposal';
+    } else if (jsonAmount === 0 && mdAmount > 0) {
+      // Markdown mentions funding but no mainnet.json exists - Missing JSON
+      proposal.fundingRequested.amount = 0;
+      proposal.fundingRequested.note = `⚠️ Missing mainnet.json (markdown mentions ${mdAmount.toLocaleString()} CELO)`;
+    } else if (jsonAmount > 0 && mdAmount > 0 && Math.abs(jsonAmount - mdAmount) > 1) {
+      // Both exist but don't match
       proposal.fundingRequested.amount = jsonAmount;
       proposal.fundingRequested.note = `⚠️ JSON amount (${jsonAmount.toLocaleString()} CELO) doesn't match markdown (${mdAmount.toLocaleString()} CELO)`;
     } else {
+      // Use JSON amount (source of truth)
       proposal.fundingRequested.amount = jsonAmount;
     }
 
