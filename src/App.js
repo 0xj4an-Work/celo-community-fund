@@ -351,6 +351,21 @@ function App() {
             <Route
               path="/"
               element={
+                <Balances
+                  communityFundCelo={communityFundCelo}
+                  communityFundUSDm={communityFundUSDm}
+                  communityFundEURm={communityFundEURm}
+                  mentoReserveCelo={mentoReserveCelo}
+                  mentoReserveUSDm={mentoReserveUSDm}
+                  mentoReserveEURm={mentoReserveEURm}
+                  celoPrice={celoPrice}
+                  eurPrice={eurPrice}
+                />
+              }
+            />
+            <Route
+              path="/status"
+              element={
                 <>
                   <div className='header'>
                     <h3>Community Fund Status</h3>
@@ -414,21 +429,6 @@ function App() {
                     <p className='donate'>If you find this valuable please support us by voting for the validator group - <a className='TPT' href='https://www.thecelo.com/groupDetail/thepassivetrust'>The Passive Trust</a></p>
                   </div>
                 </>
-              }
-            />
-            <Route
-              path="/balances"
-              element={
-                <Balances
-                  communityFundCelo={communityFundCelo}
-                  communityFundUSDm={communityFundUSDm}
-                  communityFundEURm={communityFundEURm}
-                  mentoReserveCelo={mentoReserveCelo}
-                  mentoReserveUSDm={mentoReserveUSDm}
-                  mentoReserveEURm={mentoReserveEURm}
-                  celoPrice={celoPrice}
-                  eurPrice={eurPrice}
-                />
               }
             />
           </Routes>

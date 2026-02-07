@@ -30,13 +30,13 @@ function Navigation() {
         to="/"
         style={linkStyle(location.pathname === '/')}
       >
-        Fund Status
+        Balances
       </Link>
       <Link
-        to="/balances"
-        style={linkStyle(location.pathname === '/balances')}
+        to="/status"
+        style={linkStyle(location.pathname === '/status')}
       >
-        Balances
+        Fund Status
       </Link>
     </nav>
   );
