@@ -12,7 +12,8 @@ export const incomingProposals = [
     fundingRequested: {
       amount: 950212,
       token: 'CELO',
-      usdEquivalent: null
+      usdEquivalent: null,
+      note: '⚠️ JSON amount (950,211 CELO) doesn\'t match markdown (212 CELO)'
     },
     summary: 'Funding request for MiniPay to continue as Celo\'s primary stablecoin distribution layer. Supports user acquisition, retention programs, and operational costs for H1 2026. Targets expanding user base and transaction volume across key markets.',
     githubUrl: 'https://github.com/celo-org/governance/blob/main/CGPs/cgp-0225.md',

@@ -117,7 +117,7 @@ function Balances({
                       >
                         {proposal.fundingRequested.note === 'Non Funding Proposal'
                           ? 'NON-FUNDING'
-                          : '⚠️ VERIFY'}
+                          : 'NO JSON IN .MD'}
                       </span>
                     )}
                   </div>
