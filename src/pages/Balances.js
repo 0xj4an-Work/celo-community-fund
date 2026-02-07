@@ -79,7 +79,7 @@ function Balances({
             >
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '5px' }}>
                 <div style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '3px' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '3px', flexWrap: 'wrap' }}>
                     <h5 style={{ margin: '0', color: '#FCFF52', fontSize: '12px', fontWeight: 'bold' }}>
                       {proposal.id.toUpperCase()}
                     </h5>
@@ -96,6 +96,22 @@ function Balances({
                     >
                       {proposal.status}
                     </span>
+                    {proposal.fundingRequested.note && (
+                      <span
+                        style={{
+                          padding: '2px 5px',
+                          borderRadius: '3px',
+                          fontSize: '9px',
+                          fontWeight: 'bold',
+                          background: 'rgba(255,152,0,0.2)',
+                          color: '#FF9800',
+                          border: '1px solid #FF9800'
+                        }}
+                        title={proposal.fundingRequested.note}
+                      >
+                        ⚠️ VERIFY
+                      </span>
+                    )}
                   </div>
                   <p style={{ margin: '0', fontSize: '13px', color: '#fff', textAlign: 'left', lineHeight: '1.3' }}>
                     {proposal.title}
