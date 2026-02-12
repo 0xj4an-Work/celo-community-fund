@@ -1,13 +1,13 @@
 // Incoming Celo Governance Proposals (CGPs)
 // Source: https://github.com/celo-org/governance/tree/main/CGPs
 // Mondo: https://mondo.celo.org/
-// Last updated: 2026-02-11T02:29:29.973Z
+// Last updated: 2026-02-12T02:24:32.467Z
 
 export const incomingProposals = [
   {
     "id": "cgp-0225",
     "title": "",
-    "status": "DRAFT",
+    "status": "PROPOSED",
     "proposer": "'Opera MiniPay (@opera_minipay)'",
     "dateSubmitted": "2026-02-05",
     "fundingRequested": {
@@ -16,7 +16,7 @@ export const incomingProposals = [
       "usdEquivalent": null,
       "note": "⚠️ JSON amount (950,211 CELO) doesn't match markdown (212 CELO)"
     },
-    "summary": "https://forum.celo.org/t/sustaining-and-expanding-minipay-as-celo-s-global-stablecoin-distribution-layer/12958 governance-proposal-id:  date-executed:  ---",
+    "summary": "https://forum.celo.org/t/sustaining-and-expanding-minipay-as-celo-s-global-stablecoin-distribution-layer governance-proposal-id: 277 date-executed: ---",
     "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0225.md",
     "mondoUrl": null
   },
@@ -48,21 +48,6 @@ export const incomingProposals = [
     },
     "summary": "https://forum.celo.org/t/celo-governance-guild-season-2-funding-request governance-proposal-id: 275 date-executed:  ---  Proposal Description ============================ # 1. Summary This proposal requests funding for the continuation and operation of the Celo Governance Guild during the 2026 governance year. The Governance Guild (formerly CGP Editors) serves as a neutral governance operations la",
     "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0223.md",
-    "mondoUrl": null
-  },
-  {
-    "id": "cgp-0222",
-    "title": "",
-    "status": "PROPOSED",
-    "proposer": "'Michael (@MichaelCelo)'",
-    "dateSubmitted": "2026-01-30",
-    "fundingRequested": {
-      "amount": 5622470,
-      "token": "CELO",
-      "usdEquivalent": null
-    },
-    "summary": "https://forum.celo.org/t/stabila-season-2-funding-request governance-proposal-id: 273 date-executed:  ---  Proposal Description ============================",
-    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0222.md",
     "mondoUrl": null
   },
   {
