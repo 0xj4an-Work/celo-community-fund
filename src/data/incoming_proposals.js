@@ -1,9 +1,24 @@
 // Incoming Celo Governance Proposals (CGPs)
 // Source: https://github.com/celo-org/governance/tree/main/CGPs
 // Mondo: https://mondo.celo.org/
-// Last updated: 2026-02-13T02:25:49.176Z
+// Last updated: 2026-02-14T02:06:57.448Z
 
 export const incomingProposals = [
+  {
+    "id": "cgp-0227",
+    "title": "",
+    "status": "DRAFT",
+    "proposer": "'Prezenti (@prezenti)'",
+    "dateSubmitted": "2026-02-12",
+    "fundingRequested": {
+      "amount": 3430000,
+      "token": "CELO",
+      "usdEquivalent": null
+    },
+    "summary": "This proposal requests **3,430,000 CELO tokens($276,400 cUSD)** to fund Prezenti's Season 2 operations from February through August 2026. Combined with $70,000 in carryover from Season 1, this provides **$346,400 total capacity** to operate Celo's direct grants program.  Prezenti focuses exclusively on funding builders aligned with ecosystem priorities, emphasizing applications that generate trans",
+    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0227.md",
+    "mondoUrl": null
+  },
   {
     "id": "cgp-0225",
     "title": "",
