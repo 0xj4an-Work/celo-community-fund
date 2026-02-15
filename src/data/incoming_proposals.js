@@ -1,9 +1,41 @@
 // Incoming Celo Governance Proposals (CGPs)
 // Source: https://github.com/celo-org/governance/tree/main/CGPs
 // Mondo: https://mondo.celo.org/
-// Last updated: 2026-02-14T02:06:57.448Z
+// Last updated: 2026-02-15T02:25:31.261Z
 
 export const incomingProposals = [
+  {
+    "id": "cgp-0229",
+    "title": "Overview",
+    "status": "DRAFT",
+    "proposer": "\"@mentoLabs\"",
+    "dateSubmitted": "2026-02-13",
+    "fundingRequested": {
+      "amount": 0,
+      "token": "CELO",
+      "usdEquivalent": null,
+      "note": "Non Funding Proposal"
+    },
+    "summary": "https://forum.mento.org/t/mgp-15-mento-protocol-foundation-funding-request governance-proposal-id: date-executed: ---  # Overview  This proposal is a proxy governance proposal that mirrors Mento Governance Proposal 15 (MGP-15). As part of the ongoing coordination between the Celo community and the Mento community, Celo token holders have the opportunity to vote in Mento Governance with the Celo Co",
+    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0229.md",
+    "mondoUrl": null
+  },
+  {
+    "id": "cgp-0228",
+    "title": "Overview",
+    "status": "DRAFT",
+    "proposer": "\"@mentoLabs\"",
+    "dateSubmitted": "2026-02-13",
+    "fundingRequested": {
+      "amount": 0,
+      "token": "CELO",
+      "usdEquivalent": null,
+      "note": "Non Funding Proposal"
+    },
+    "summary": "https://forum.mento.org/t/mgp-14-mento-v3-deployment-phase-1 governance-proposal-id: date-executed: ---  # Overview  This proposal is a proxy governance proposal that mirrors Mento Governance Proposal 14 (MGP-14). As part of the ongoing coordination between the Celo community and the Mento community, Celo token holders have the opportunity to vote in Mento Governance with the Celo Community fund M",
+    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0228.md",
+    "mondoUrl": null
+  },
   {
     "id": "cgp-0227",
     "title": "",
@@ -36,36 +68,6 @@ export const incomingProposals = [
     "mondoUrl": null
   },
   {
-    "id": "cgp-0224",
-    "title": "",
-    "status": "PROPOSED",
-    "proposer": "'CeloFoundation'",
-    "dateSubmitted": "2026-01-30",
-    "fundingRequested": {
-      "amount": 8880995,
-      "token": "CELO",
-      "usdEquivalent": null
-    },
-    "summary": "https://forum.celo.org/t/celo-foundation-season-2-funding-proposal governance-proposal-id: 276 date-executed:  ---",
-    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0224.md",
-    "mondoUrl": null
-  },
-  {
-    "id": "cgp-0223",
-    "title": "1. Summary",
-    "status": "PROPOSED",
-    "proposer": "'Celo Governance (@celogovernance)'",
-    "dateSubmitted": "2026-02-01",
-    "fundingRequested": {
-      "amount": 532000,
-      "token": "CELO",
-      "usdEquivalent": null
-    },
-    "summary": "https://forum.celo.org/t/celo-governance-guild-season-2-funding-request governance-proposal-id: 275 date-executed:  ---  Proposal Description ============================ # 1. Summary This proposal requests funding for the continuation and operation of the Celo Governance Guild during the 2026 governance year. The Governance Guild (formerly CGP Editors) serves as a neutral governance operations la",
-    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0223.md",
-    "mondoUrl": null
-  },
-  {
     "id": "cgp-0221",
     "title": "",
     "status": "DRAFT",
@@ -79,21 +81,6 @@ export const incomingProposals = [
     },
     "summary": "MGP-13 enables a 5bps (0.05%) spread fee and increases the ValueDeltaBreaker circuit breaker thresholds from 10bps to 15bps (0.10% → 0.15%) for the following pairs:  1. `USDm/USDC` 2. `USDm/axlUSDC` 3. `USDm/USD₮`  The goals are to reduce breaker-induced downtime, improve protection against arbitrage losses, and enable protocol revenue on high-volume pairs.  This proposal updates two parameter set",
     "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0221.md",
-    "mondoUrl": null
-  },
-  {
-    "id": "cgp-0220",
-    "title": "",
-    "status": "PROPOSED",
-    "proposer": "'cLabs Team'",
-    "dateSubmitted": "2026-01-15",
-    "fundingRequested": {
-      "amount": 4355627,
-      "token": "CELO",
-      "usdEquivalent": null
-    },
-    "summary": "https://forum.celo.org/t/clabs-core-protocol-execution-season-2-h1-2026-funding-proposal governance-proposal-id: 274 date-executed: ---",
-    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0220.md",
     "mondoUrl": null
   },
   {
