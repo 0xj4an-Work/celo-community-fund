@@ -1,9 +1,25 @@
 // Incoming Celo Governance Proposals (CGPs)
 // Source: https://github.com/celo-org/governance/tree/main/CGPs
 // Mondo: https://mondo.celo.org/
-// Last updated: 2026-02-19T02:14:10.012Z
+// Last updated: 2026-02-20T02:09:55.659Z
 
 export const incomingProposals = [
+  {
+    "id": "cgp-0230",
+    "title": "",
+    "status": "DRAFT",
+    "proposer": "'cLabs Team'",
+    "dateSubmitted": "2026-02-19",
+    "fundingRequested": {
+      "amount": 0,
+      "token": "CELO",
+      "usdEquivalent": null,
+      "note": "Non Funding Proposal"
+    },
+    "summary": "https://forum.celo.org/t/update-intrinsic-gas-configuration-for-fee-abstraction/13014 governance-proposal-id: date-executed: ---",
+    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0230.md",
+    "mondoUrl": null
+  },
   {
     "id": "cgp-0229",
     "title": "Overview",
@@ -81,21 +97,6 @@ export const incomingProposals = [
     },
     "summary": "MGP-13 enables a 5bps (0.05%) spread fee and increases the ValueDeltaBreaker circuit breaker thresholds from 10bps to 15bps (0.10% → 0.15%) for the following pairs:  1. `USDm/USDC` 2. `USDm/axlUSDC` 3. `USDm/USD₮`  The goals are to reduce breaker-induced downtime, improve protection against arbitrage losses, and enable protocol revenue on high-volume pairs.  This proposal updates two parameter set",
     "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0221.md",
-    "mondoUrl": null
-  },
-  {
-    "id": "cgp-0219",
-    "title": "Payment Terms",
-    "status": "DRAFT",
-    "proposer": "'Goldo (@0xGoldo), 0xj4an-work (@0xj4an-work), Anthony (@Anthony), Skdt (@skdt)'",
-    "dateSubmitted": "2026-01-22",
-    "fundingRequested": {
-      "amount": 355022,
-      "token": "CELO",
-      "usdEquivalent": null
-    },
-    "summary": "https://forum.celo.org/t/celo-communities-guild-season-2-funding-request governance-proposal-id: 272 date-executed: 2026-02-05 ---    Proposal Description ============================ This proposal requests funding to continue and scale the Celo Communities Guild throughout the period from January to June 2026, supporting its presence across [Discord](http://chat.celo.org/), [Telegram](http://t.me",
-    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0219.md",
     "mondoUrl": null
   }
 ];
