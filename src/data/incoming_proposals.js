@@ -1,13 +1,13 @@
 // Incoming Celo Governance Proposals (CGPs)
 // Source: https://github.com/celo-org/governance/tree/main/CGPs
 // Mondo: https://mondo.celo.org/
-// Last updated: 2026-02-25T02:13:02.208Z
+// Last updated: 2026-02-26T02:09:10.221Z
 
 export const incomingProposals = [
   {
     "id": "cgp-0231",
     "title": "",
-    "status": "DRAFT",
+    "status": "PROPOSED",
     "proposer": "'Nauman Mustafa (@nauman)'",
     "dateSubmitted": "2026-02-19",
     "fundingRequested": {
@@ -15,7 +15,7 @@ export const incomingProposals = [
       "token": "CELO",
       "usdEquivalent": null
     },
-    "summary": "https://forum.celo.org/t/celo-infrastructure-for-chain-lifecycle-operational-support-ciclops-season-2-funding-request governance-proposal-id: date-executed: ---  Proposal Description ============================ This proposal requests $2.7M equivalent to 21,738,286 CELO at 90 day average price of $0.1242 in Season 2 funding to continue operating CICLOPS as Celo's core infrastructure coordination a",
+    "summary": "https://forum.celo.org/t/celo-infrastructure-for-chain-lifecycle-operational-support-ciclops-season-2-funding-request governance-proposal-id: 281 date-executed: ---  Proposal Description ============================ This proposal requests $2.7M equivalent to 21,738,286 CELO at 90 day average price of $0.1242 in Season 2 funding to continue operating CICLOPS as Celo's core infrastructure coordinati",
     "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0231.md",
     "mondoUrl": null
   },
@@ -36,22 +36,6 @@ export const incomingProposals = [
     "mondoUrl": null
   },
   {
-    "id": "cgp-0229",
-    "title": "Overview",
-    "status": "DRAFT",
-    "proposer": "\"@mentoLabs\"",
-    "dateSubmitted": "2026-02-13",
-    "fundingRequested": {
-      "amount": 0,
-      "token": "CELO",
-      "usdEquivalent": null,
-      "note": "Non Funding Proposal"
-    },
-    "summary": "https://forum.mento.org/t/mgp-15-mento-protocol-foundation-funding-request governance-proposal-id: date-executed: ---  # Overview  This proposal is a proxy governance proposal that mirrors Mento Governance Proposal 15 (MGP-15). As part of the ongoing coordination between the Celo community and the Mento community, Celo token holders have the opportunity to vote in Mento Governance with the Celo Co",
-    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0229.md",
-    "mondoUrl": null
-  },
-  {
     "id": "cgp-0228",
     "title": "Overview",
     "status": "DRAFT",
@@ -63,39 +47,8 @@ export const incomingProposals = [
       "usdEquivalent": null,
       "note": "Non Funding Proposal"
     },
-    "summary": "https://forum.mento.org/t/mgp-14-mento-v3-deployment-phase-1 governance-proposal-id: date-executed: ---  # Overview  This proposal is a proxy governance proposal that mirrors Mento Governance Proposal 14 (MGP-14). As part of the ongoing coordination between the Celo community and the Mento community, Celo token holders have the opportunity to vote in Mento Governance with the Celo Community fund M",
+    "summary": "https://forum.mento.org/t/mgp-14-mento-v3-deployment-phase-1 governance-proposal-id: 279 date-executed: ---  # Overview  This proposal is a proxy governance proposal that mirrors Mento Governance Proposal 14 (MGP-14). As part of the ongoing coordination between the Celo community and the Mento community, Celo token holders have the opportunity to vote in Mento Governance with the Celo Community fu",
     "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0228.md",
-    "mondoUrl": null
-  },
-  {
-    "id": "cgp-0227",
-    "title": "",
-    "status": "DRAFT",
-    "proposer": "'Prezenti (@prezenti)'",
-    "dateSubmitted": "2026-02-12",
-    "fundingRequested": {
-      "amount": 3430000,
-      "token": "CELO",
-      "usdEquivalent": null
-    },
-    "summary": "This proposal requests **3,430,000 CELO tokens($276,400 cUSD)** to fund Prezenti's Season 2 operations from February through August 2026. Combined with $70,000 in carryover from Season 1, this provides **$346,400 total capacity** to operate Celo's direct grants program.  Prezenti focuses exclusively on funding builders aligned with ecosystem priorities, emphasizing applications that generate trans",
-    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0227.md",
-    "mondoUrl": null
-  },
-  {
-    "id": "cgp-0225",
-    "title": "",
-    "status": "PROPOSED",
-    "proposer": "'Opera MiniPay (@opera_minipay)'",
-    "dateSubmitted": "2026-02-05",
-    "fundingRequested": {
-      "amount": 950211,
-      "token": "CELO",
-      "usdEquivalent": null,
-      "note": "⚠️ JSON amount (950,211 CELO) doesn't match markdown (212 CELO)"
-    },
-    "summary": "https://forum.celo.org/t/sustaining-and-expanding-minipay-as-celo-s-global-stablecoin-distribution-layer governance-proposal-id: 277 date-executed: ---",
-    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0225.md",
     "mondoUrl": null
   },
   {
