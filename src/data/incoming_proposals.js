@@ -1,7 +1,7 @@
 // Incoming Celo Governance Proposals (CGPs)
 // Source: https://github.com/celo-org/governance/tree/main/CGPs
 // Mondo: https://mondo.celo.org/
-// Last updated: 2026-02-26T02:09:10.221Z
+// Last updated: 2026-02-27T02:07:52.826Z
 
 export const incomingProposals = [
   {
@@ -22,7 +22,7 @@ export const incomingProposals = [
   {
     "id": "cgp-0230",
     "title": "",
-    "status": "DRAFT",
+    "status": "PROPOSED",
     "proposer": "'cLabs Team'",
     "dateSubmitted": "2026-02-19",
     "fundingRequested": {
@@ -31,7 +31,7 @@ export const incomingProposals = [
       "usdEquivalent": null,
       "note": "Non Funding Proposal"
     },
-    "summary": "https://forum.celo.org/t/update-intrinsic-gas-configuration-for-fee-abstraction/13014 governance-proposal-id: date-executed: ---",
+    "summary": "https://forum.celo.org/t/update-intrinsic-gas-configuration-for-fee-abstraction governance-proposal-id: 283 date-executed: ---",
     "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0230.md",
     "mondoUrl": null
   },
@@ -52,19 +52,19 @@ export const incomingProposals = [
     "mondoUrl": null
   },
   {
-    "id": "cgp-0221",
+    "id": "cgp-0226",
     "title": "",
     "status": "DRAFT",
-    "proposer": "\"@mentoLabs\"",
-    "dateSubmitted": "2026-01-29",
+    "proposer": "\"Pavel Hornak, Martín Volpe (@martinvol)\"",
+    "dateSubmitted": "2025-10-10",
     "fundingRequested": {
       "amount": 0,
       "token": "CELO",
       "usdEquivalent": null,
       "note": "Non Funding Proposal"
     },
-    "summary": "MGP-13 enables a 5bps (0.05%) spread fee and increases the ValueDeltaBreaker circuit breaker thresholds from 10bps to 15bps (0.10% → 0.15%) for the following pairs:  1. `USDm/USDC` 2. `USDm/axlUSDC` 3. `USDm/USD₮`  The goals are to reduce breaker-induced downtime, improve protection against arbitrage losses, and enable protocol revenue on high-volume pairs.  This proposal updates two parameter set",
-    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0221.md",
+    "summary": "governance-proposal-id: date-executed: ---",
+    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0226.md",
     "mondoUrl": null
   }
 ];
