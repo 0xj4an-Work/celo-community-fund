@@ -1,24 +1,9 @@
 // Incoming Celo Governance Proposals (CGPs)
 // Source: https://github.com/celo-org/governance/tree/main/CGPs
 // Mondo: https://mondo.celo.org/
-// Last updated: 2026-03-04T02:06:56.634Z
+// Last updated: 2026-03-05T02:10:04.252Z
 
 export const incomingProposals = [
-  {
-    "id": "cgp-0231",
-    "title": "",
-    "status": "PROPOSED",
-    "proposer": "'Nauman Mustafa (@nauman)'",
-    "dateSubmitted": "2026-02-19",
-    "fundingRequested": {
-      "amount": 21738286,
-      "token": "CELO",
-      "usdEquivalent": null
-    },
-    "summary": "https://forum.celo.org/t/celo-infrastructure-for-chain-lifecycle-operational-support-ciclops-season-2-funding-request governance-proposal-id: 281 date-executed: ---  Proposal Description ============================ This proposal requests $2.7M equivalent to 21,738,286 CELO at 90 day average price of $0.1242 in Season 2 funding to continue operating CICLOPS as Celo's core infrastructure coordinati",
-    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0231.md",
-    "mondoUrl": null
-  },
   {
     "id": "cgp-0230",
     "title": "",
