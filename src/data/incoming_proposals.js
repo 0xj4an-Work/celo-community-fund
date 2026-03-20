@@ -1,9 +1,25 @@
 // Incoming Celo Governance Proposals (CGPs)
 // Source: https://github.com/celo-org/governance/tree/main/CGPs
 // Mondo: https://mondo.celo.org/
-// Last updated: 2026-03-19T02:24:38.877Z
+// Last updated: 2026-03-20T02:10:16.876Z
 
 export const incomingProposals = [
+  {
+    "id": "cgp-0232",
+    "title": "Should return 0xF424B5e85B290b66aC20f8A9EAB75E25a526725E",
+    "status": "DRAFT",
+    "proposer": "\"Pavel Hornak\"",
+    "dateSubmitted": "2026-03-18",
+    "fundingRequested": {
+      "amount": 0,
+      "token": "CELO",
+      "usdEquivalent": null,
+      "note": "Non Funding Proposal"
+    },
+    "summary": "https://forum.celo.org/t/celos-next-chapter-opera-proposal-to-transition-from-distribution-partner-to-network-stakeholder/13124 governance-proposal-id: date-executed: ---",
+    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0232.md",
+    "mondoUrl": null
+  },
   {
     "id": "cgp-0230",
     "title": "",
