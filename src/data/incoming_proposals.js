@@ -1,9 +1,41 @@
 // Incoming Celo Governance Proposals (CGPs)
 // Source: https://github.com/celo-org/governance/tree/main/CGPs
 // Mondo: https://mondo.celo.org/
-// Last updated: 2026-04-07T02:32:07.679Z
+// Last updated: 2026-04-08T02:32:40.276Z
 
 export const incomingProposals = [
+  {
+    "id": "cgp-0234",
+    "title": "Should return at least 1748950000000000000000000",
+    "status": "DRAFT",
+    "proposer": "\"Celo Core Co.\"",
+    "dateSubmitted": "2026-04-07",
+    "fundingRequested": {
+      "amount": 0,
+      "token": "CELO",
+      "usdEquivalent": null,
+      "note": "Non Funding Proposal"
+    },
+    "summary": "As part of the CELOccelerate initiative, Celo Core Co. returned 1,748,950 CELO in sequencer revenue to the Community Fund (see [transaction](https://celoscan.io/tx/0xfbe1dac031726b6f580b561bfc2a80262b9529d09e4463fc3600cc74dce31a86)).  This proposal follows the discussion on Governance Call #88 and the [CELOccelerate tokenomics proposal](https://forum.celo.org/t/celoccelerate-celo-tokenomics-propos",
+    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0234.md",
+    "mondoUrl": null
+  },
+  {
+    "id": "cgp-0233",
+    "title": "",
+    "status": "DRAFT",
+    "proposer": "\"Celo Core Co.\"",
+    "dateSubmitted": "2026-04-07",
+    "fundingRequested": {
+      "amount": 0,
+      "token": "CELO",
+      "usdEquivalent": null,
+      "note": "Non Funding Proposal"
+    },
+    "summary": "https://forum.celo.org/t/celoccelerate-celo-tokenomics-proposal/13147/1 governance-proposal-id: date-executed: ---  > **This is a temperature check proposal.** It contains **no on-chain transactions**. Its purpose is to gauge community sentiment on the CELOccelerate tokenomics direction before any binding, executable proposals are submitted. A \"Yes\" vote signals support for the four changes outlin",
+    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0233.md",
+    "mondoUrl": null
+  },
   {
     "id": "cgp-0232",
     "title": "Should return 0xF424B5e85B290b66aC20f8A9EAB75E25a526725E",
