@@ -1,7 +1,7 @@
 // Incoming Celo Governance Proposals (CGPs)
 // Source: https://github.com/celo-org/governance/tree/main/CGPs
 // Mondo: https://mondo.celo.org/
-// Last updated: 2026-04-10T02:38:49.347Z
+// Last updated: 2026-04-11T02:24:40.659Z
 
 export const incomingProposals = [
   {
@@ -32,7 +32,7 @@ export const incomingProposals = [
       "usdEquivalent": null,
       "note": "Non Funding Proposal"
     },
-    "summary": "https://forum.celo.org/t/celoccelerate-celo-tokenomics-proposal/13147/1 governance-proposal-id: date-executed: ---  > **This is a temperature check proposal.** It contains **no on-chain transactions**. Its purpose is to gauge community sentiment on the CELOccelerate tokenomics direction before any binding, executable proposals are submitted. A \"Yes\" vote signals support for the four changes outlin",
+    "summary": "https://forum.celo.org/t/celoccelerate-celo-tokenomics-proposal/13147/1 governance-proposal-id: 286 date-executed: ---  > **This is a temperature check proposal.** It contains **no on-chain transactions**. Its purpose is to gauge community sentiment on the CELOccelerate tokenomics direction before any binding, executable proposals are submitted. A \"Yes\" vote signals support for the four changes ou",
     "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0233.md",
     "mondoUrl": null
   },
