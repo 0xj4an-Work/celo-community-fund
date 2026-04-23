@@ -1,9 +1,25 @@
 // Incoming Celo Governance Proposals (CGPs)
 // Source: https://github.com/celo-org/governance/tree/main/CGPs
 // Mondo: https://mondo.celo.org/
-// Last updated: 2026-04-22T02:39:36.746Z
+// Last updated: 2026-04-23T02:43:17.399Z
 
 export const incomingProposals = [
+  {
+    "id": "cgp-0235",
+    "title": "",
+    "status": "DRAFT",
+    "proposer": "\"Aaron Boyd (Thylacine), Mohamed Sohail (kamikazechaser)\"",
+    "dateSubmitted": "2026-04-10",
+    "fundingRequested": {
+      "amount": 0,
+      "token": "CELO",
+      "usdEquivalent": null,
+      "note": "Non Funding Proposal"
+    },
+    "summary": "* Reduce group deregister duration from 15552000 (180 days), to 604800 (1 week) * Reduce validator deregister duration from 5184000 seconds (60 days), to 259200 (3 days) * There will be no change to the locked gold requirements (10000000000000000000000 wei)",
+    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0235.md",
+    "mondoUrl": null
+  },
   {
     "id": "cgp-0234",
     "title": "Should return at least 1748950000000000000000000",
