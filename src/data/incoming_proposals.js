@@ -1,9 +1,25 @@
 // Incoming Celo Governance Proposals (CGPs)
 // Source: https://github.com/celo-org/governance/tree/main/CGPs
 // Mondo: https://mondo.celo.org/
-// Last updated: 2026-04-27T02:52:44.235Z
+// Last updated: 2026-04-28T03:21:01.208Z
 
 export const incomingProposals = [
+  {
+    "id": "cgp-0236",
+    "title": "",
+    "status": "DRAFT",
+    "proposer": "\"Celo Core Co.\"",
+    "dateSubmitted": "2026-04-21",
+    "fundingRequested": {
+      "amount": 0,
+      "token": "CELO",
+      "usdEquivalent": null,
+      "note": "Non Funding Proposal"
+    },
+    "summary": "This proposal implements one of the four changes outlined in the [CELOccelerate tokenomics temperature check (CGP-0233)](https://mondo.celo.org/governance/286), which recently passed governance. Specifically, it executes item 4: pausing carbon offset fund contributions.  It pauses the fee-based carbon fund distributions on the FeeHandler (currently 10% of transaction fees) by setting the carbon fr",
+    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0236.md",
+    "mondoUrl": null
+  },
   {
     "id": "cgp-0235",
     "title": "",
@@ -98,22 +114,6 @@ export const incomingProposals = [
     },
     "summary": "https://forum.mento.org/t/mgp-14-mento-v3-deployment-phase-1 governance-proposal-id: 279 date-executed: ---  # Overview  This proposal is a proxy governance proposal that mirrors Mento Governance Proposal 14 (MGP-14). As part of the ongoing coordination between the Celo community and the Mento community, Celo token holders have the opportunity to vote in Mento Governance with the Celo Community fu",
     "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0228.md",
-    "mondoUrl": null
-  },
-  {
-    "id": "cgp-0226",
-    "title": "",
-    "status": "DRAFT",
-    "proposer": "\"Pavel Hornak, Martín Volpe (@martinvol)\"",
-    "dateSubmitted": "2025-10-10",
-    "fundingRequested": {
-      "amount": 0,
-      "token": "CELO",
-      "usdEquivalent": null,
-      "note": "Non Funding Proposal"
-    },
-    "summary": "governance-proposal-id: date-executed: ---",
-    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0226.md",
     "mondoUrl": null
   }
 ];
