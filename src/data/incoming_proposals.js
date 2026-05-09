@@ -1,9 +1,24 @@
 // Incoming Celo Governance Proposals (CGPs)
 // Source: https://github.com/celo-org/governance/tree/main/CGPs
 // Mondo: https://mondo.celo.org/
-// Last updated: 2026-05-08T02:57:59.455Z
+// Last updated: 2026-05-09T02:53:40.585Z
 
 export const incomingProposals = [
+  {
+    "id": "cgp-0237",
+    "title": "",
+    "status": "DRAFT",
+    "proposer": "'Nauman Mustafa (@nauman)'",
+    "dateSubmitted": "2026-04-27",
+    "fundingRequested": {
+      "amount": 697777,
+      "token": "CELO",
+      "usdEquivalent": null
+    },
+    "summary": "https://forum.celo.org/t/celo-infrastructure-for-chain-lifecycle-operational-support-ciclops-season-2-funding-request governance-proposal-id: date-executed: ---  Proposal Description ============================ This proposal addresses an earlier discrepancy in CGP 202, which used the `approve` function instead of `increaseAllowance` and overwrote a remaining allowance of 1,897,470 CELO. As a resu",
+    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0237.md",
+    "mondoUrl": null
+  },
   {
     "id": "cgp-0236",
     "title": "",
