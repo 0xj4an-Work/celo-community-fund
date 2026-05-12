@@ -1,9 +1,25 @@
 // Incoming Celo Governance Proposals (CGPs)
 // Source: https://github.com/celo-org/governance/tree/main/CGPs
 // Mondo: https://mondo.celo.org/
-// Last updated: 2026-05-11T03:37:01.825Z
+// Last updated: 2026-05-12T03:24:07.970Z
 
 export const incomingProposals = [
+  {
+    "id": "cgp-0238",
+    "title": "",
+    "status": "DRAFT",
+    "proposer": "\"Pavel Hornak, Martín Volpe (@martinvol)\"",
+    "dateSubmitted": "2026-05-11",
+    "fundingRequested": {
+      "amount": 0,
+      "token": "CELO",
+      "usdEquivalent": null,
+      "note": "Non Funding Proposal"
+    },
+    "summary": "governance-proposal-id: date-executed: ---",
+    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0238.md",
+    "mondoUrl": null
+  },
   {
     "id": "cgp-0237",
     "title": "",
@@ -113,22 +129,6 @@ export const incomingProposals = [
     },
     "summary": "https://forum.celo.org/t/update-intrinsic-gas-configuration-for-fee-abstraction governance-proposal-id: 283 date-executed: ---",
     "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0230.md",
-    "mondoUrl": null
-  },
-  {
-    "id": "cgp-0228",
-    "title": "Overview",
-    "status": "DRAFT",
-    "proposer": "\"@mentoLabs\"",
-    "dateSubmitted": "2026-02-13",
-    "fundingRequested": {
-      "amount": 0,
-      "token": "CELO",
-      "usdEquivalent": null,
-      "note": "Non Funding Proposal"
-    },
-    "summary": "https://forum.mento.org/t/mgp-14-mento-v3-deployment-phase-1 governance-proposal-id: 279 date-executed: ---  # Overview  This proposal is a proxy governance proposal that mirrors Mento Governance Proposal 14 (MGP-14). As part of the ongoing coordination between the Celo community and the Mento community, Celo token holders have the opportunity to vote in Mento Governance with the Celo Community fu",
-    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0228.md",
     "mondoUrl": null
   }
 ];
