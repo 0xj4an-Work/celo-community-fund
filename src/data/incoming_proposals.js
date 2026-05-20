@@ -1,13 +1,29 @@
 // Incoming Celo Governance Proposals (CGPs)
 // Source: https://github.com/celo-org/governance/tree/main/CGPs
 // Mondo: https://mondo.celo.org/
-// Last updated: 2026-05-19T03:38:27.067Z
+// Last updated: 2026-05-20T03:39:18.838Z
 
 export const incomingProposals = [
   {
-    "id": "cgp-0238",
+    "id": "cgp-0239",
     "title": "",
     "status": "DRAFT",
+    "proposer": "'Pavel Hornak (@pahor167)'",
+    "dateSubmitted": "2026-05-18",
+    "fundingRequested": {
+      "amount": 0,
+      "token": "CELO",
+      "usdEquivalent": null,
+      "note": "Non Funding Proposal"
+    },
+    "summary": "https://forum.celo.org/t/stcelo-expanding-defaultstrategy-from-6-15-active-validator-groups governance-proposal-id: date-executed: ---",
+    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0239.md",
+    "mondoUrl": null
+  },
+  {
+    "id": "cgp-0238",
+    "title": "",
+    "status": "PROPOSED",
     "proposer": "\"Pavel Hornak, Martín Volpe (@martinvol)\"",
     "dateSubmitted": "2026-05-11",
     "fundingRequested": {
@@ -16,7 +32,7 @@ export const incomingProposals = [
       "usdEquivalent": null,
       "note": "Non Funding Proposal"
     },
-    "summary": "governance-proposal-id: date-executed: ---",
+    "summary": "https://forum.celo.org/t/celo-core-contracts-release-16/13178 governance-proposal-id: 290 date-executed: ---",
     "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0238.md",
     "mondoUrl": null
   },
