@@ -1,9 +1,25 @@
 // Incoming Celo Governance Proposals (CGPs)
 // Source: https://github.com/celo-org/governance/tree/main/CGPs
 // Mondo: https://mondo.celo.org/
-// Last updated: 2026-05-20T03:39:18.838Z
+// Last updated: 2026-05-21T03:50:21.189Z
 
 export const incomingProposals = [
+  {
+    "id": "cgp-0240",
+    "title": "",
+    "status": "DRAFT",
+    "proposer": "'Pavel Hornak (@pahor167)'",
+    "dateSubmitted": "2026-05-18",
+    "fundingRequested": {
+      "amount": 0,
+      "token": "CELO",
+      "usdEquivalent": null,
+      "note": "Non Funding Proposal"
+    },
+    "summary": "https://forum.celo.org/t/enable-usa-and-xau-0-as-gas-currencies-on-celo/13162 governance-proposal-id: date-executed: ---",
+    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0240.md",
+    "mondoUrl": null
+  },
   {
     "id": "cgp-0239",
     "title": "",
@@ -129,22 +145,6 @@ export const incomingProposals = [
     },
     "summary": "https://forum.celo.org/t/celos-next-chapter-opera-proposal-to-transition-from-distribution-partner-to-network-stakeholder/13124 governance-proposal-id: date-executed: ---",
     "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0232.md",
-    "mondoUrl": null
-  },
-  {
-    "id": "cgp-0230",
-    "title": "",
-    "status": "PROPOSED",
-    "proposer": "'cLabs Team'",
-    "dateSubmitted": "2026-02-19",
-    "fundingRequested": {
-      "amount": 0,
-      "token": "CELO",
-      "usdEquivalent": null,
-      "note": "Non Funding Proposal"
-    },
-    "summary": "https://forum.celo.org/t/update-intrinsic-gas-configuration-for-fee-abstraction governance-proposal-id: 283 date-executed: ---",
-    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0230.md",
     "mondoUrl": null
   }
 ];
