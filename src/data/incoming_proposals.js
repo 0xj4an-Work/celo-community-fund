@@ -1,13 +1,13 @@
 // Incoming Celo Governance Proposals (CGPs)
 // Source: https://github.com/celo-org/governance/tree/main/CGPs
 // Mondo: https://mondo.celo.org/
-// Last updated: 2026-05-28T03:41:30.404Z
+// Last updated: 2026-05-29T03:41:47.415Z
 
 export const incomingProposals = [
   {
     "id": "cgp-0240",
     "title": "",
-    "status": "DRAFT",
+    "status": "PROPOSED",
     "proposer": "'Pavel Hornak (@pahor167)'",
     "dateSubmitted": "2026-05-18",
     "fundingRequested": {
@@ -16,7 +16,7 @@ export const incomingProposals = [
       "usdEquivalent": null,
       "note": "Non Funding Proposal"
     },
-    "summary": "https://forum.celo.org/t/enable-usa-and-xau-0-as-gas-currencies-on-celo/13162 governance-proposal-id: date-executed: ---",
+    "summary": "https://forum.celo.org/t/enable-usa-and-xau-0-as-gas-currencies-on-celo/13162 governance-proposal-id: 294 date-executed: ---",
     "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0240.md",
     "mondoUrl": null
   },
