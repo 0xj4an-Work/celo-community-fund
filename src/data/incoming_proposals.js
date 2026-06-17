@@ -1,9 +1,25 @@
 // Incoming Celo Governance Proposals (CGPs)
 // Source: https://github.com/celo-org/governance/tree/main/CGPs
 // Mondo: https://mondo.celo.org/
-// Last updated: 2026-06-16T04:14:53.906Z
+// Last updated: 2026-06-17T04:12:59.804Z
 
 export const incomingProposals = [
+  {
+    "id": "cgp-0241",
+    "title": "",
+    "status": "DRAFT",
+    "proposer": "\"Pavel Hornak (@pahor167)\"",
+    "dateSubmitted": "2026-06-16",
+    "fundingRequested": {
+      "amount": 0,
+      "token": "CELO",
+      "usdEquivalent": null,
+      "note": "Non Funding Proposal"
+    },
+    "summary": "https://forum.celo.org/t/validator-group-voter-reward-commission/13392 governance-proposal-id: date-executed: ---",
+    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0241.md",
+    "mondoUrl": null
+  },
   {
     "id": "cgp-0240",
     "title": "",
