@@ -1,9 +1,24 @@
 // Incoming Celo Governance Proposals (CGPs)
 // Source: https://github.com/celo-org/governance/tree/main/CGPs
 // Mondo: https://mondo.celo.org/
-// Last updated: 2026-06-24T03:39:20.482Z
+// Last updated: 2026-06-25T03:38:35.773Z
 
 export const incomingProposals = [
+  {
+    "id": "cgp-0242",
+    "title": "",
+    "status": "DRAFT",
+    "proposer": "'@swiftstaking, @kamikazechaser, @thylacine, @clemens, @dee'",
+    "dateSubmitted": "2026-04-23",
+    "fundingRequested": {
+      "amount": 1312500,
+      "token": "CELO",
+      "usdEquivalent": null
+    },
+    "summary": "https://forum.celo.org/t/proposal-celo-challenger-operator-funding/13239 governance-proposal-id: date-executed: ---",
+    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0242.md",
+    "mondoUrl": null
+  },
   {
     "id": "cgp-0241",
     "title": "",
@@ -145,22 +160,6 @@ export const incomingProposals = [
     },
     "summary": "https://forum.celo.org/t/celoccelerate-celo-tokenomics-proposal/13147/1 governance-proposal-id: 286 date-executed: ---  > **This is a temperature check proposal.** It contains **no on-chain transactions**. Its purpose is to gauge community sentiment on the CELOccelerate tokenomics direction before any binding, executable proposals are submitted. A \"Yes\" vote signals support for the four changes ou",
     "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0233.md",
-    "mondoUrl": null
-  },
-  {
-    "id": "cgp-0232",
-    "title": "Should return 0xF424B5e85B290b66aC20f8A9EAB75E25a526725E",
-    "status": "DRAFT",
-    "proposer": "\"Pavel Hornak\"",
-    "dateSubmitted": "2026-03-18",
-    "fundingRequested": {
-      "amount": 0,
-      "token": "CELO",
-      "usdEquivalent": null,
-      "note": "Non Funding Proposal"
-    },
-    "summary": "https://forum.celo.org/t/celos-next-chapter-opera-proposal-to-transition-from-distribution-partner-to-network-stakeholder/13124 governance-proposal-id: date-executed: ---",
-    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0232.md",
     "mondoUrl": null
   }
 ];
