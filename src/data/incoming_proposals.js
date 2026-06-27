@@ -1,9 +1,41 @@
 // Incoming Celo Governance Proposals (CGPs)
 // Source: https://github.com/celo-org/governance/tree/main/CGPs
 // Mondo: https://mondo.celo.org/
-// Last updated: 2026-06-25T03:38:35.773Z
+// Last updated: 2026-06-27T03:32:12.250Z
 
 export const incomingProposals = [
+  {
+    "id": "cgp-0244",
+    "title": "expect 0x78DaA21FcE4D30E74fF745Da3204764a0ad40179 for all four",
+    "status": "DRAFT",
+    "proposer": "'Pavel Hornak (@pahor167)'",
+    "dateSubmitted": "2026-06-24",
+    "fundingRequested": {
+      "amount": 0,
+      "token": "CELO",
+      "usdEquivalent": null,
+      "note": "Non Funding Proposal"
+    },
+    "summary": "https://forum.celo.org/t/stcelo-withdrawal-flow-improvements-account-manager-defaultstrategy-specificgroupstrategy-upgrade/13427 governance-proposal-id: date-executed: ---",
+    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0244.md",
+    "mondoUrl": null
+  },
+  {
+    "id": "cgp-0243",
+    "title": "",
+    "status": "DRAFT",
+    "proposer": "'Pavel Hornak (@pahor167)'",
+    "dateSubmitted": "2026-06-24",
+    "fundingRequested": {
+      "amount": 0,
+      "token": "CELO",
+      "usdEquivalent": null,
+      "note": "Non Funding Proposal"
+    },
+    "summary": "https://forum.celo.org/t/next-steps-for-strengthening-celo-governance/13432 governance-proposal-id: date-executed: ---",
+    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0243.md",
+    "mondoUrl": null
+  },
   {
     "id": "cgp-0242",
     "title": "",
@@ -128,38 +160,6 @@ export const incomingProposals = [
     },
     "summary": "* Reduce group deregister duration from 15552000 (180 days), to 604800 (1 week) * Reduce validator deregister duration from 5184000 seconds (60 days), to 259200 (3 days) * There will be no change to the locked gold requirements (10000000000000000000000 wei)",
     "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0235.md",
-    "mondoUrl": null
-  },
-  {
-    "id": "cgp-0234",
-    "title": "Should return at least 1748950000000000000000000",
-    "status": "DRAFT",
-    "proposer": "\"Celo Core Co.\"",
-    "dateSubmitted": "2026-04-07",
-    "fundingRequested": {
-      "amount": 0,
-      "token": "CELO",
-      "usdEquivalent": null,
-      "note": "Non Funding Proposal"
-    },
-    "summary": "As part of the CELOccelerate initiative, Celo Core Co. returned 1,748,950 CELO in sequencer revenue to the Community Fund (see [transaction](https://celoscan.io/tx/0xfbe1dac031726b6f580b561bfc2a80262b9529d09e4463fc3600cc74dce31a86)).  This proposal follows the discussion on Governance Call #88 and the [CELOccelerate tokenomics proposal](https://forum.celo.org/t/celoccelerate-celo-tokenomics-propos",
-    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0234.md",
-    "mondoUrl": null
-  },
-  {
-    "id": "cgp-0233",
-    "title": "",
-    "status": "DRAFT",
-    "proposer": "\"Celo Core Co.\"",
-    "dateSubmitted": "2026-04-07",
-    "fundingRequested": {
-      "amount": 0,
-      "token": "CELO",
-      "usdEquivalent": null,
-      "note": "Non Funding Proposal"
-    },
-    "summary": "https://forum.celo.org/t/celoccelerate-celo-tokenomics-proposal/13147/1 governance-proposal-id: 286 date-executed: ---  > **This is a temperature check proposal.** It contains **no on-chain transactions**. Its purpose is to gauge community sentiment on the CELOccelerate tokenomics direction before any binding, executable proposals are submitted. A \"Yes\" vote signals support for the four changes ou",
-    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0233.md",
     "mondoUrl": null
   }
 ];
