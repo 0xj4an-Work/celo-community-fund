@@ -1,9 +1,25 @@
 // Incoming Celo Governance Proposals (CGPs)
 // Source: https://github.com/celo-org/governance/tree/main/CGPs
 // Mondo: https://mondo.celo.org/
-// Last updated: 2026-07-23T02:47:08.053Z
+// Last updated: 2026-07-24T02:42:31.235Z
 
 export const incomingProposals = [
+  {
+    "id": "cgp-0245",
+    "title": "expect the six current signers listed under \"What Changes\"",
+    "status": "DRAFT",
+    "proposer": "'Mc01 (@Mc01), Pavel Hornak (@pahor167)'",
+    "dateSubmitted": "2026-07-07",
+    "fundingRequested": {
+      "amount": 0,
+      "token": "CELO",
+      "usdEquivalent": null,
+      "note": "Non Funding Proposal"
+    },
+    "summary": "https://forum.celo.org/t/stakedcelo-move-multisig-control-to-the-clabs-security-council-to-accelerate-validator-set-dead-groups-curation-funds-recovery/13507 governance-proposal-id: date-executed: ---",
+    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0245.md",
+    "mondoUrl": null
+  },
   {
     "id": "cgp-0244",
     "title": "expect 0x78DaA21FcE4D30E74fF745Da3204764a0ad40179 for all four",
@@ -144,22 +160,6 @@ export const incomingProposals = [
     },
     "summary": "This proposal implements one of the four changes outlined in the [CELOccelerate tokenomics temperature check (CGP-0233)](https://mondo.celo.org/governance/286), which recently passed governance. Specifically, it executes item 4: pausing carbon offset fund contributions.  It pauses the fee-based carbon fund distributions on the FeeHandler (currently 10% of transaction fees) by setting the carbon fr",
     "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0236.md",
-    "mondoUrl": null
-  },
-  {
-    "id": "cgp-0235",
-    "title": "",
-    "status": "DRAFT",
-    "proposer": "\"Aaron Boyd (Thylacine), Mohamed Sohail (kamikazechaser)\"",
-    "dateSubmitted": "2026-04-10",
-    "fundingRequested": {
-      "amount": 0,
-      "token": "CELO",
-      "usdEquivalent": null,
-      "note": "Non Funding Proposal"
-    },
-    "summary": "* Reduce group deregister duration from 15552000 (180 days), to 604800 (1 week) * Reduce validator deregister duration from 5184000 seconds (60 days), to 259200 (3 days) * There will be no change to the locked gold requirements (10000000000000000000000 wei)",
-    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0235.md",
     "mondoUrl": null
   }
 ];
