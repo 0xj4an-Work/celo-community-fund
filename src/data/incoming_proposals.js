@@ -1,9 +1,39 @@
 // Incoming Celo Governance Proposals (CGPs)
 // Source: https://github.com/celo-org/governance/tree/main/CGPs
 // Mondo: https://mondo.celo.org/
-// Last updated: 2026-07-25T02:41:21.720Z
+// Last updated: 2026-07-26T02:49:52.314Z
 
 export const incomingProposals = [
+  {
+    "id": "cgp-0247",
+    "title": "",
+    "status": "DRAFT",
+    "proposer": "'@CeloCoreCo'",
+    "dateSubmitted": "2026-07-24",
+    "fundingRequested": {
+      "amount": 31609499,
+      "token": "CELO",
+      "usdEquivalent": null
+    },
+    "summary": "This proposal requests funding from the unreleased CELO treasury to support the next six months of work by Celo Core Co., the newly unified core contributor organization formed through the alignment of cLabs and the Celo Foundation.  Season 3 marks an important milestone in Celo's evolution. Earlier this year, cLabs and the Celo Foundation merged into Celo Core Co., bringing together protocol deve",
+    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0247.md",
+    "mondoUrl": null
+  },
+  {
+    "id": "cgp-0246",
+    "title": "",
+    "status": "DRAFT",
+    "proposer": "'@Stabila'",
+    "dateSubmitted": "2026-07-24",
+    "fundingRequested": {
+      "amount": 4838709,
+      "token": "CELO",
+      "usdEquivalent": null
+    },
+    "summary": "This proposal requests Season 3 funding from the unreleased CELO treasury (July–December 2026) for Stabila to continue coordinating DeFi incentives and liquidity strategy across Celo. The mandate continues to evolve from broad ecosystem bootstrapping toward focused, strategic capital deployment — prioritizing market depth, capital efficiency, and sustainable economic activity.  Season 3 also align",
+    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0246.md",
+    "mondoUrl": null
+  },
   {
     "id": "cgp-0245",
     "title": "expect the six current signers listed under \"What Changes\"",
@@ -129,37 +159,6 @@ export const incomingProposals = [
     },
     "summary": "https://forum.celo.org/t/celo-core-contracts-release-16/13178 governance-proposal-id: 290 date-executed: ---",
     "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0238.md",
-    "mondoUrl": null
-  },
-  {
-    "id": "cgp-0237",
-    "title": "",
-    "status": "DRAFT",
-    "proposer": "'Nauman Mustafa (@nauman)'",
-    "dateSubmitted": "2026-04-27",
-    "fundingRequested": {
-      "amount": 697777,
-      "token": "CELO",
-      "usdEquivalent": null
-    },
-    "summary": "https://forum.celo.org/t/celo-infrastructure-for-chain-lifecycle-operational-support-ciclops-season-2-funding-request governance-proposal-id: date-executed: ---  Proposal Description ============================ This proposal addresses an earlier discrepancy in CGP 202, which used the `approve` function instead of `increaseAllowance` and overwrote a remaining allowance of 1,897,470 CELO. As a resu",
-    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0237.md",
-    "mondoUrl": null
-  },
-  {
-    "id": "cgp-0236",
-    "title": "",
-    "status": "DRAFT",
-    "proposer": "\"Celo Core Co.\"",
-    "dateSubmitted": "2026-04-21",
-    "fundingRequested": {
-      "amount": 0,
-      "token": "CELO",
-      "usdEquivalent": null,
-      "note": "Non Funding Proposal"
-    },
-    "summary": "This proposal implements one of the four changes outlined in the [CELOccelerate tokenomics temperature check (CGP-0233)](https://mondo.celo.org/governance/286), which recently passed governance. Specifically, it executes item 4: pausing carbon offset fund contributions.  It pauses the fee-based carbon fund distributions on the FeeHandler (currently 10% of transaction fees) by setting the carbon fr",
-    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0236.md",
     "mondoUrl": null
   }
 ];
