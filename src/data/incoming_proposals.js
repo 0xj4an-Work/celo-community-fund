@@ -1,9 +1,24 @@
 // Incoming Celo Governance Proposals (CGPs)
 // Source: https://github.com/celo-org/governance/tree/main/CGPs
 // Mondo: https://mondo.celo.org/
-// Last updated: 2026-07-30T02:26:20.419Z
+// Last updated: 2026-07-31T02:51:29.601Z
 
 export const incomingProposals = [
+  {
+    "id": "cgp-0248",
+    "title": "",
+    "status": "DRAFT",
+    "proposer": "'@KishanP'",
+    "dateSubmitted": "2026-07-30",
+    "fundingRequested": {
+      "amount": 35838926,
+      "token": "CELO",
+      "usdEquivalent": null
+    },
+    "summary": "This proposal requests funding from the Unreleased Celo Treasury to support CICLOPS during Season 3 (July–December 2026).  Since its inception, CICLOPS has served as Celo's infrastructure coordination and stewardship mechanism, ensuring that critical ecosystem infrastructure remains operational, adequately resourced, and aligned with the evolving needs of the network.  As Celo continues to mature ",
+    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0248.md",
+    "mondoUrl": null
+  },
   {
     "id": "cgp-0247",
     "title": "",
@@ -143,22 +158,6 @@ export const incomingProposals = [
     },
     "summary": "https://forum.celo.org/t/stcelo-expanding-defaultstrategy-from-6-15-active-validator-groups governance-proposal-id: date-executed: ---",
     "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0239.md",
-    "mondoUrl": null
-  },
-  {
-    "id": "cgp-0238",
-    "title": "",
-    "status": "PROPOSED",
-    "proposer": "\"Pavel Hornak, Martín Volpe (@martinvol)\"",
-    "dateSubmitted": "2026-05-11",
-    "fundingRequested": {
-      "amount": 0,
-      "token": "CELO",
-      "usdEquivalent": null,
-      "note": "Non Funding Proposal"
-    },
-    "summary": "https://forum.celo.org/t/celo-core-contracts-release-16/13178 governance-proposal-id: 290 date-executed: ---",
-    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0238.md",
     "mondoUrl": null
   }
 ];
