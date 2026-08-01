@@ -1,9 +1,25 @@
 // Incoming Celo Governance Proposals (CGPs)
 // Source: https://github.com/celo-org/governance/tree/main/CGPs
 // Mondo: https://mondo.celo.org/
-// Last updated: 2026-07-31T02:51:29.601Z
+// Last updated: 2026-08-01T02:50:01.137Z
 
 export const incomingProposals = [
+  {
+    "id": "cgp-0249",
+    "title": "",
+    "status": "DRAFT",
+    "proposer": "'Prezenti Grants (@prezenti)'",
+    "dateSubmitted": "2026-07-30",
+    "fundingRequested": {
+      "amount": 0,
+      "token": "CELO",
+      "usdEquivalent": null,
+      "note": "Non Funding Proposal"
+    },
+    "summary": "This CGP authorizes Prezenti to continue Celo's direct-grants program through Season 3 without receiving any new funds from the Celo Community Treasury and without using any of the redeployed funds for overhead.  The proposal authorizes two actions:  1. **Redeploy 151,894 USDm of uncommitted capacity** from Prezenti's Season 2 Anchor allocation, remaining Boost allocation, and terminated-grant fun",
+    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0249.md",
+    "mondoUrl": null
+  },
   {
     "id": "cgp-0248",
     "title": "",
@@ -142,22 +158,6 @@ export const incomingProposals = [
     },
     "summary": "https://forum.celo.org/t/enable-usa-and-xau-0-as-gas-currencies-on-celo/13162 governance-proposal-id: 294 date-executed: ---",
     "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0240.md",
-    "mondoUrl": null
-  },
-  {
-    "id": "cgp-0239",
-    "title": "",
-    "status": "DRAFT",
-    "proposer": "'Pavel Hornak (@pahor167)'",
-    "dateSubmitted": "2026-05-18",
-    "fundingRequested": {
-      "amount": 0,
-      "token": "CELO",
-      "usdEquivalent": null,
-      "note": "Non Funding Proposal"
-    },
-    "summary": "https://forum.celo.org/t/stcelo-expanding-defaultstrategy-from-6-15-active-validator-groups governance-proposal-id: date-executed: ---",
-    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0239.md",
     "mondoUrl": null
   }
 ];
