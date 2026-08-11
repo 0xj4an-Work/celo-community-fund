@@ -1,9 +1,24 @@
 // Incoming Celo Governance Proposals (CGPs)
 // Source: https://github.com/celo-org/governance/tree/main/CGPs
 // Mondo: https://mondo.celo.org/
-// Last updated: 2026-08-10T01:49:23.765Z
+// Last updated: 2026-08-11T01:46:05.152Z
 
 export const incomingProposals = [
+  {
+    "id": "cgp-0251",
+    "title": "",
+    "status": "DRAFT",
+    "proposer": "'Celo Communities Guild (@0xGoldo, @0xj4an-work, @Anthony, @skdt)'",
+    "dateSubmitted": "2026-08-10",
+    "fundingRequested": {
+      "amount": 551000,
+      "token": "CELO",
+      "usdEquivalent": null
+    },
+    "summary": "https://forum.celo.org/t/celo-communities-guild-season-3-funding-request/13648 governance-proposal-id: date-executed: ---  Proposal Description ============================",
+    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0251.md",
+    "mondoUrl": null
+  },
   {
     "id": "cgp-0250",
     "title": "",
@@ -141,22 +156,6 @@ export const incomingProposals = [
     },
     "summary": "https://forum.celo.org/t/proposal-celo-challenger-operator-funding/13239 governance-proposal-id: date-executed: ---",
     "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0242.md",
-    "mondoUrl": null
-  },
-  {
-    "id": "cgp-0241",
-    "title": "",
-    "status": "DRAFT",
-    "proposer": "\"Pavel Hornak (@pahor167)\"",
-    "dateSubmitted": "2026-06-16",
-    "fundingRequested": {
-      "amount": 0,
-      "token": "CELO",
-      "usdEquivalent": null,
-      "note": "Non Funding Proposal"
-    },
-    "summary": "https://forum.celo.org/t/validator-group-voter-reward-commission/13392 governance-proposal-id: date-executed: ---",
-    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0241.md",
     "mondoUrl": null
   }
 ];
