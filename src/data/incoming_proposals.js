@@ -1,9 +1,25 @@
 // Incoming Celo Governance Proposals (CGPs)
 // Source: https://github.com/celo-org/governance/tree/main/CGPs
 // Mondo: https://mondo.celo.org/
-// Last updated: 2026-08-19T01:15:08.178Z
+// Last updated: 2026-08-20T01:14:10.293Z
 
 export const incomingProposals = [
+  {
+    "id": "cgp-0252",
+    "title": "",
+    "status": "DRAFT",
+    "proposer": "\"@mentoLabs\"",
+    "dateSubmitted": "2026-08-18",
+    "fundingRequested": {
+      "amount": 0,
+      "token": "CELO",
+      "usdEquivalent": null,
+      "note": "Non Funding Proposal"
+    },
+    "summary": "https://forum.mento.org/t/mgp-18-mento-v2-deprecation/137 governance-proposal-id: date-executed: ---",
+    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0252.md",
+    "mondoUrl": null
+  },
   {
     "id": "cgp-0251",
     "title": "",
@@ -141,21 +157,6 @@ export const incomingProposals = [
     },
     "summary": "https://forum.celo.org/t/next-steps-for-strengthening-celo-governance/13432 governance-proposal-id: date-executed: ---",
     "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0243.md",
-    "mondoUrl": null
-  },
-  {
-    "id": "cgp-0242",
-    "title": "",
-    "status": "DRAFT",
-    "proposer": "'@swiftstaking, @kamikazechaser, @thylacine, @clemens, @dee'",
-    "dateSubmitted": "2026-04-23",
-    "fundingRequested": {
-      "amount": 1312500,
-      "token": "CELO",
-      "usdEquivalent": null
-    },
-    "summary": "https://forum.celo.org/t/proposal-celo-challenger-operator-funding/13239 governance-proposal-id: date-executed: ---",
-    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0242.md",
     "mondoUrl": null
   }
 ];
