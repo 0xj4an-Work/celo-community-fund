@@ -1,9 +1,25 @@
 // Incoming Celo Governance Proposals (CGPs)
 // Source: https://github.com/celo-org/governance/tree/main/CGPs
 // Mondo: https://mondo.celo.org/
-// Last updated: 2026-08-28T09:58:16.012Z
+// Last updated: 2026-08-29T05:57:17.337Z
 
 export const incomingProposals = [
+  {
+    "id": "cgp-0253",
+    "title": "",
+    "status": "DRAFT",
+    "proposer": "\"@mentoLabs\"",
+    "dateSubmitted": "2026-08-24",
+    "fundingRequested": {
+      "amount": 0,
+      "token": "CELO",
+      "usdEquivalent": null,
+      "note": "Non Funding Proposal"
+    },
+    "summary": "https://forum.celo.org/t/mgp-19-bringing-mento-stable-asset-issuance-home-to-celo-governance/13750 governance-proposal-id: date-executed: ---",
+    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0253.md",
+    "mondoUrl": null
+  },
   {
     "id": "cgp-0252",
     "title": "",
@@ -141,22 +157,6 @@ export const incomingProposals = [
     },
     "summary": "https://forum.celo.org/t/stcelo-withdrawal-flow-improvements-account-manager-defaultstrategy-specificgroupstrategy-upgrade/13427 governance-proposal-id: date-executed: ---",
     "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0244.md",
-    "mondoUrl": null
-  },
-  {
-    "id": "cgp-0243",
-    "title": "",
-    "status": "DRAFT",
-    "proposer": "'Pavel Hornak (@pahor167)'",
-    "dateSubmitted": "2026-06-24",
-    "fundingRequested": {
-      "amount": 0,
-      "token": "CELO",
-      "usdEquivalent": null,
-      "note": "Non Funding Proposal"
-    },
-    "summary": "https://forum.celo.org/t/next-steps-for-strengthening-celo-governance/13432 governance-proposal-id: date-executed: ---",
-    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0243.md",
     "mondoUrl": null
   }
 ];
