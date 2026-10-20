@@ -1,13 +1,13 @@
 // Incoming Celo Governance Proposals (CGPs)
 // Source: https://github.com/celo-org/governance/tree/main/CGPs
 // Mondo: https://mondo.celo.org/
-// Last updated: 2026-10-19T03:34:39.143Z
+// Last updated: 2026-10-20T03:45:09.816Z
 
 export const incomingProposals = [
   {
     "id": "cgp-0256",
     "title": "[... 0x0357EE22…80C4, 0x857BF24e…4C16]   (adapters active, underlying absent)",
-    "status": "DRAFT",
+    "status": "PROPOSED",
     "proposer": "'Pavel Hornak (@pahor167)'",
     "dateSubmitted": "2026-10-01",
     "fundingRequested": {
@@ -16,13 +16,29 @@ export const incomingProposals = [
       "usdEquivalent": null,
       "note": "Non Funding Proposal"
     },
-    "summary": "https://forum.celo.org/t/fix-usa-and-xau-0-fee-distribution-in-feehandler/13828 governance-proposal-id: date-executed: ---",
+    "summary": "https://forum.celo.org/t/fix-usa-and-xau-0-fee-distribution-in-feehandler/13828 governance-proposal-id: 313 date-executed: ---",
     "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0256.md",
     "mondoUrl": null
   },
   {
     "id": "cgp-0255",
     "title": "0",
+    "status": "PROPOSED",
+    "proposer": "'Pavel Hornak (@pahor167)'",
+    "dateSubmitted": "2026-10-01",
+    "fundingRequested": {
+      "amount": 0,
+      "token": "CELO",
+      "usdEquivalent": null,
+      "note": "Non Funding Proposal"
+    },
+    "summary": "https://forum.celo.org/t/set-the-governance-hotfix-execution-window-to-24-hours/13810 governance-proposal-id: 312 date-executed: ---",
+    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0255.md",
+    "mondoUrl": null
+  },
+  {
+    "id": "cgp-0254",
+    "title": "0x41822d8A191fcfB1cfcA5F7048818aCd8eE933d3",
     "status": "DRAFT",
     "proposer": "'Pavel Hornak (@pahor167)'",
     "dateSubmitted": "2026-10-01",
@@ -32,8 +48,8 @@ export const incomingProposals = [
       "usdEquivalent": null,
       "note": "Non Funding Proposal"
     },
-    "summary": "https://forum.celo.org/t/set-the-governance-hotfix-execution-window-to-24-hours/13810 governance-proposal-id: date-executed: ---",
-    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0255.md",
+    "summary": "https://forum.celo.org/t/governance-approver-rotation-correction-re-add-eran-tromer-remove-kobi-gurkan/13798 governance-proposal-id: date-executed: ---",
+    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0254.md",
     "mondoUrl": null
   },
   {
