@@ -1,7 +1,7 @@
 // Incoming Celo Governance Proposals (CGPs)
 // Source: https://github.com/celo-org/governance/tree/main/CGPs
 // Mondo: https://mondo.celo.org/
-// Last updated: 2026-10-20T03:45:09.816Z
+// Last updated: 2026-10-21T03:36:29.370Z
 
 export const incomingProposals = [
   {
@@ -39,7 +39,7 @@ export const incomingProposals = [
   {
     "id": "cgp-0254",
     "title": "0x41822d8A191fcfB1cfcA5F7048818aCd8eE933d3",
-    "status": "DRAFT",
+    "status": "PROPOSED",
     "proposer": "'Pavel Hornak (@pahor167)'",
     "dateSubmitted": "2026-10-01",
     "fundingRequested": {
@@ -48,7 +48,7 @@ export const incomingProposals = [
       "usdEquivalent": null,
       "note": "Non Funding Proposal"
     },
-    "summary": "https://forum.celo.org/t/governance-approver-rotation-correction-re-add-eran-tromer-remove-kobi-gurkan/13798 governance-proposal-id: date-executed: ---",
+    "summary": "https://forum.celo.org/t/governance-approver-rotation-correction-re-add-eran-tromer-remove-kobi-gurkan/13798 governance-proposal-id: 314 date-executed: ---",
     "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0254.md",
     "mondoUrl": null
   },
