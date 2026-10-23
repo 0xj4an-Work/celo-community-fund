@@ -1,7 +1,7 @@
 // Incoming Celo Governance Proposals (CGPs)
 // Source: https://github.com/celo-org/governance/tree/main/CGPs
 // Mondo: https://mondo.celo.org/
-// Last updated: 2026-10-22T03:36:03.372Z
+// Last updated: 2026-10-23T03:40:52.373Z
 
 export const incomingProposals = [
   {
