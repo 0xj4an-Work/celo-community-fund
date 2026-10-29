@@ -1,9 +1,25 @@
 // Incoming Celo Governance Proposals (CGPs)
 // Source: https://github.com/celo-org/governance/tree/main/CGPs
 // Mondo: https://mondo.celo.org/
-// Last updated: 2026-10-28T04:24:13.380Z
+// Last updated: 2026-10-29T04:42:54.541Z
 
 export const incomingProposals = [
+  {
+    "id": "cgp-0257",
+    "title": "Proposal Description",
+    "status": "DRAFT",
+    "proposer": "'Wesley Malipaard (@Westermali on the Celo Forum)'",
+    "dateSubmitted": "2026-10-22",
+    "fundingRequested": {
+      "amount": 0,
+      "token": "CELO",
+      "usdEquivalent": null,
+      "note": "Non Funding Proposal"
+    },
+    "summary": "https://forum.celo.org/t/final-revenue-based-celo-burn-allocate-25-of-net-l2-sequencer-revenue-to-permanent-burn/13727 governance-proposal-id: date-executed: ---  # Proposal Description  This CGP asks Celo Governance to allocate 25% of future Net L2 Sequencer Revenue to a permanent CELO burn and the remaining 75% to the Celo Community Fund. It preserves the existing revenue calculation and cost de",
+    "githubUrl": "https://github.com/celo-org/governance/blob/main/CGPs/cgp-0257.md",
+    "mondoUrl": null
+  },
   {
     "id": "cgp-0256",
     "title": "[... 0x0357EE22…80C4, 0x857BF24e…4C16]   (adapters active, underlying absent)",
